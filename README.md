@@ -1,61 +1,92 @@
 # School TV Dashboard
 
-Okul TV ekranları için geliştirilmiş modern bir dashboard uygulaması. Ders programı, nöbet listesi ve sistem durumu bilgilerini görüntülemek için tasarlanmıştır.
+A modern dashboard application developed for school TV displays. Designed to display class schedules, watch duty lists, and system status information.
 
-## Özellikler
+## 🌐 Live Demo
 
-- 📅 Ders programı görüntüleme
-- 👮 Nöbet listesi takibi
-- ⏰ Gerçek zamanlı saat senkronizasyonu
-- 🎨 Modern ve responsive tasarım
-- 🌓 Karanlık/Aydınlık tema desteği
-- ⚙️ Özelleştirilebilir ayarlar
-- 📱 Tam ekran modu
-- 🎯 Sınav modu overlay
+**Live Preview:** [https://myschoolpanel.vercel.app/](https://myschoolpanel.vercel.app/)
 
-## Teknolojiler
+## ✨ Features
 
-- [Next.js](https://nextjs.org) 16.0.3
-- [React](https://react.dev) 19.2.0
-- [TypeScript](https://www.typescriptlang.org)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Radix UI](https://www.radix-ui.com)
-- [Lucide Icons](https://lucide.dev)
+- 📅 **Class Schedule Display** - View daily lesson schedules
+- 👮 **Watch Duty Tracking** - Monitor teacher watch duties
+- ⏰ **Real-time Clock Sync** - Synchronized time with server
+- 🎨 **Modern & Responsive Design** - Beautiful UI that works on all devices
+- 🌓 **Dark/Light Theme Support** - Toggle between themes
+- ⚙️ **Customizable Settings** - Personalize your dashboard experience
+- 📱 **Fullscreen Mode** - Immersive viewing experience
+- 🎯 **Exam Mode Overlay** - Special overlay for exam periods
 
-## Kurulum
+## 🛠️ Tech Stack
 
-Projeyi klonlayın:
+- **[Next.js](https://nextjs.org)** 16.0.3 - React framework
+- **[React](https://react.dev)** 19.2.0 - UI library
+- **[TypeScript](https://www.typescriptlang.org)** - Type safety
+- **[Tailwind CSS](https://tailwindcss.com)** - Utility-first CSS
+- **[Radix UI](https://www.radix-ui.com)** - Accessible component primitives
+- **[Lucide Icons](https://lucide.dev)** - Beautiful icon library
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ and npm
+
+### Installation
+
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/schooldashboard.git
+git clone https://github.com/WinTone01/schooldashboard.git
 cd schooldashboard
 ```
 
-Bağımlılıkları yükleyin:
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-## Geliştirme
-
-Geliştirme sunucusunu başlatın:
+3. Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Build
+## 📦 Building for Production
 
-Production build oluşturmak için:
+Create an optimized production build:
 
 ```bash
 npm run build
 npm start
 ```
 
-## Lisans
+## 📝 Project Structure
 
-Bu proje özel bir projedir.
+```
+school-tv-dashboard/
+├── src/
+│   ├── app/              # Next.js app directory
+│   ├── components/       # React components
+│   │   ├── dashboard/    # Dashboard components
+│   │   ├── settings/     # Settings components
+│   │   └── ui/           # UI primitives
+│   ├── hooks/            # Custom React hooks
+│   └── lib/              # Utility functions
+└── public/               # Static assets
+```
+
+## 🤝 Contributing
+
+This is a private project. For issues or suggestions, please contact the maintainer.
+
+## 📄 License
+
+This project is private and proprietary.
+
+---
+
+Made with ❤️ for schools
