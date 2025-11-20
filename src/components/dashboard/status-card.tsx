@@ -66,8 +66,8 @@ export function StatusCard() {
         </div>
         
         {(period.type !== 'after' && period.type !== 'weekend') && (
-          <div className="bg-gradient-to-br from-orange-500 to-red-600 text-white p-8 rounded-2xl shadow-xl w-full max-w-md text-center border-4 border-white/20">
-             <div className="text-6xl font-black font-mono tracking-widest tabular-nums drop-shadow-md">
+          <div className="bg-gradient-to-br from-orange-500 to-red-600 text-white p-4 md:p-8 rounded-2xl shadow-xl w-full max-w-md text-center border-4 border-white/20">
+             <div className="text-4xl md:text-6xl font-black font-mono tracking-widest tabular-nums drop-shadow-md break-all md:break-normal">
                {formatCountdown(timeRemaining)}
              </div>
              <div className="mt-2 text-white/90 font-medium">{subText}</div>
